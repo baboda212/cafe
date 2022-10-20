@@ -1,0 +1,37 @@
+/* mobile.css */
+body{
+    background: lightblue;
+}
+header{
+    background: #000;
+}
+header nav{
+    padding: 20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header nav a{
+    color: #fff;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+#main-title{
+    background: #999;
+    height: 400px;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* display: flex; */
+    /* justify-content: flex-end;/* center / flex-start / flex-end */
+    /* align-items: flex-end;  */ 
+    padding: 50px;
+    background-image: url('../images/titlebg.jpg');
+    background-size: cover;
+    /* filter: brightness(80%); */
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/* 위에서 플렉스가 세로방향column으로 정했으니깐 세로방향이 주축이 된다. */
+}
+

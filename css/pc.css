@@ -1,0 +1,37 @@
+/* pc.css */
+body{
+    background: lightgoldenrodyellow;
+}
+header{
+    background: #000;
+    /* 최대크기 산정 */
+    max-width: 1400px;
+    margin: 0 auto;
+}
+header nav{
+    padding: 20px;
+    text-align: center;
+}
+header nav a{
+    color: #fff;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+/* header end */
+
+#main-title{
+    background: #999;
+    height: 400px;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* display: flex; */
+    /* justify-content: flex-end;/* center / flex-start / flex-end */
+    /* align-items: flex-end;  */ 
+    padding: 50px;
+    background-image: url('../images/titlebg.jpg');
+    background-size: cover;
+    /* filter: brightness(80%); */
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
